@@ -19,7 +19,7 @@
 <!--===============================================================================================-->
   <link rel="stylesheet" type="text/css" href="../vendor/select2/select2.min.css">
 <!--===============================================================================================-->
-  <link href="css/agency.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../css/agency.css ">
   <link rel="stylesheet" type="text/css" href="../css/util.css">
   <link rel="stylesheet" type="text/css" href="../css/main.css ">
 <!--===============================================================================================-->
@@ -40,9 +40,11 @@
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="../home.html">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#">Books</a>
-            </li>
+            <div class="dropdown-content">
+                <a href="views/if-books.html">Teknik Informatika</a>
+                <a href="#">Teknik Elektro</a>
+                <a href="#">Perencanaan Wilayah dan Kota</a>
+              </div>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#">Info</a>
             </li>
@@ -127,18 +129,21 @@
     </div>
   </div>
   
-  
 
+    <!-- Bootstrap core JavaScript -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <script src="../js/jqBootstrapValidation.js"></script>
+    <script src="../js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="../js/agency.min.js"></script>
   
-<!--===============================================================================================-->  
-  <script src="../vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-  <script src="../endor/bootstrap/js/popper.js"></script>
-  <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-  <script src="../vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-  <script src="../js/main.js"></script>
 
 </body>
 </html>
