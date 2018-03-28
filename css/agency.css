@@ -213,12 +213,12 @@ header.masthead .intro-text .intro-heading {
   text-transform: none;
 }
 
-#populer .populer-item {
+#populer .carousel {
   right: 0;
   margin: 0 0 15px;
 }
 
-#populer .populer-item .populer-link {
+#populer .carousel .populer-link {
   position: relative;
   display: block;
   max-width: 400px;
@@ -226,7 +226,7 @@ header.masthead .intro-text .intro-heading {
   cursor: pointer;
 }
 
-#populer .populer-item .populer-link .populer-hover {
+#populer .carousel .populer-link .populer-hover {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -237,11 +237,11 @@ header.masthead .intro-text .intro-heading {
   background: rgba(254, 209, 54, 0.9);
 }
 
-#populer .populer-item .populer-link .populer-hover:hover {
+#populer .carousel .populer-link .populer-hover:hover {
   opacity: 1;
 }
 
-#populer .populer-item .populer-link .populer-hover .populer-hover-content {
+#populer .carousel .populer-link .populer-hover .populer-hover-content {
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -252,29 +252,29 @@ header.masthead .intro-text .intro-heading {
   color: white;
 }
 
-#populer .populer-item .populer-link .populer-hover .populer-hover-content i {
+#populer .carousel .populer-link .populer-hover .populer-hover-content i {
   margin-top: -12px;
 }
 
-#populer .populer-item .populer-link .populer-hover .populer-hover-content h3,
-#populer .populer-item .populer-link .populer-hover .populer-hover-content h4 {
+#populer .carousel .populer-link .populer-hover .populer-hover-content h3,
+#populer .carousel .populer-link .populer-hover .populer-hover-content h4 {
   margin: 0;
 }
 
-#populer .populer-item .populer-caption {
-  max-width: 400px;
+#populer .carousel .populer-caption {
+  max-width: 300px;
   margin: 0 auto;
   padding: 25px;
   text-align: center;
   background-color: #fff;
 }
 
-#populer .populer-item .populer-caption h4 {
+#populer .carousel .populer-caption h4 {
   margin: 0;
   text-transform: none;
 }
 
-#populer .populer-item .populer-caption p {
+#populer .carousel .populer-caption p {
   font-size: 16px;
   font-style: italic;
   margin: 0;
@@ -286,7 +286,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 @media (min-width: 767px) {
-  #populer .populer-item {
+  #populer .carousel {
     margin: 0 0 30px;
   }
 }
